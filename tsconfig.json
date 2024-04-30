@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2018",
+    "module": "es6",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "lib": ["dom", "es6"]
+  },
+  "include": ["src/**/*"]
+}

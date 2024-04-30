@@ -1,0 +1,23 @@
+{
+  "name": "navigation-animation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.ts --bundle --outfile=dist/index.js --minify --sourcemap --platform=browser",
+    "serve": "serve dist",
+    "start": "npm run build && npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "serve": "^14.2.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5"
+  }
+}
